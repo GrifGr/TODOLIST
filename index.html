@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo list</title>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<h1>todo list</h1>
+<div class="todos">
+    <div class="todos__add">
+        <div class="todos__add-date cellData"></div>
+        <div class="todos__add-task">
+            <input id="todos__add-task_input" onkeyup="pressEnter(event)" name="todos__add-task_input" type="text"
+                   placeholder="Task">
+        </div>
+        <div class="todos__add-button cellButton">
+            <button class="imgHover" id="addButton">add</button>
+        </div>
+    </div>
+    <!-- /.todos__add -->
+    <div class="todos__find">
+        <div class="todos__find-date cellData">
+            <img class="todos__find-date__img" src="img/sortDate.jpg" alt="sortDate"/>
+        </div>
+        <div class="todos__find-rang cellRang">
+            <img class="todos__find-rang__img" src="img/sortNumber.jpg" alt="sortDate"/>
+        </div>
+        <div class="todos__find-rangbtn cellRangButton"></div>
+        <div class="todos__find-task cellTask">
+            <input id="todos__find-task_input" onkeyup="find()" name="todos__find-task_input" type="text"
+                   placeholder="">
+        </div>
+        <div class="todos__find-btn cellButtton">
+            <img class="todos__find-btn__img" src="img/findBtn.jpg" alt="findBtn"/>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+img {
+    /*width: 100%;*/
+}
+
+.imgHover:hover {
+    cursor: pointer;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.taskDone{
+    background-color: #d1eef4;
+}
+
+.cellData {
+    width: 80px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.cellRang {
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.cellRangButton {
+    width: 20px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.cellTask {
+    width: 300px;
+    margin-left: 5px;
+}
+
+.cellButtton {
+    width: 140px;
+    text-align: center;
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+}
+
+.todos__add {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    height: 30px;
+}
+
+.todos__add-date {
+
+}
+
+.todos__add-task {
+    display: inline;
+    width: 400px;
+    margin: auto 10px;
+}
+
+#todos__add-task_input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.todos__add-button {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    width: 100px;
+
+}
+
+#addButton {
+    width: 100px;
+    text-transform: uppercase;
+    background-color: #53afff;
+    color: white;
+}
+
+.todos__find {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.todos__find-date {
+
+}
+
+.todos__find-date__img {
+
+}
+
+.todos__find-rang {
+
+}
+
+.todos__find-rang__img {
+
+}
+
+.todos__find-rangbtn {
+
+}
+
+.todos__find-task {
+    margin: auto 0;
+}
+
+.todos__find {
+
+}
+
+#todos__find-task_input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.todos__find-btn__img {
+
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.task__date {
+
+}
+
+.task__date-date {
+
+}
+
+.task__date-time {
+
+}
+
+.task__rang {
+    margin: auto 5px;
+}
+
+.task__rang-square {
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    /*height: 25px;*/
+    margin: auto 0;
+}
+
+.task__rangButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.task__rangButton-up {
+
+}
+
+.task__rangButton-down {
+
+}
+
+.task__text {
+    margin: auto 0;
+}
+
+.task__text-input {
+    width: 100%;
+    border: none;
+
+}
+
+.task__buttons {
+
+}
